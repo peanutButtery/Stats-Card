@@ -60,21 +60,24 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+#### Differentiation between Div and Span
 
-To see how you can add code snippets, see below:
+I took notice of the difference between Div and Span.
+As Div is block element instead of inline element, I selected div to create the entire wrapping card, and span to select single highlighted word.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+ <div class="Marketing_Card">
+    <h1>Get <span>insights</span> that help your business grow.</h1>
+ </div>
 ```
+
+#### Use of Flexbox
+
+I used CSS Flexbox feature to locate the 3 metrics below. 
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+.metrics {
+  display: flex;
 }
 ```
 
